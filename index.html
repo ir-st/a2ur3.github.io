@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>A2ur3</h1>
+  <p>github.io blog</p> 
+</div>
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>关于我</h2>
+      <h5>我的照片:</h5>
+      <div class="fakeimg">这边插入图像</div>
+      <p>关于我的介绍..</p>
+      <h3>一些链接</h3>
+      <p>说明文本</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">激活状态</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">禁用</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>天气</h2>
+      <iframe src="//www.seniverse.com/weather/weather.aspx?uid=U24948AE73&amp;cid=CHBJ000000&amp;l=&amp;p=SMART&amp;a=1&amp;u=C&amp;s=1&amp;m=0&amp;x=1&amp;d=5&amp;fc=&amp;bgc=&amp;bc=&amp;ti=0&amp;in=1&amp;li=" frameborder="0" scrolling="no" width="450" height="230" allowtransparency="true"></iframe>
+      <br>
+      <h2>导航</h2>
+      <div class="textwidget custom-html-widget"><div class="tariffCards">
+        <div class="economy">
+       &nbsp; <a href="http://www.azure-irst.cc/free">
+              <h3>一碗鲜面</h3>
+               </a>
+          <span>
+       &nbsp; &nbsp; Free software tonight
+       &nbsp; &nbsp;</span>
+        </div>
+        <div class="premiumeconomy">
+          <a href=" http://www.azure-irst.cc/category/idea">
+                  <h3>一点想法</h3></a>
+          <span>
+       &nbsp; &nbsp; &nbsp;idea
+              </span>
+        </div>
+        <div class="business">
+          <a href="http://www.azure-irst.cc/category/notes">
+                  <h3>Notes；</h3></a>
+          <span>
+       &nbsp; &nbsp; Needs to be marked</span>
+        </div>
+        <div class="first">
+          <a href="http://www.azure-irst.cc">
+                  <h3>Others</h3></a>
+          <span>
+       &nbsp; &nbsp; &nbsp;Other Things</span>
+        </div>
+      </div>
+      
+      <style>
+      
+      body {
+        height: auto;
+      }
+      
+      .tariffCards {
+       
+        user-select: none;
+        transform: translate3d(0, 0, 0);
+        transform-style: preserve-3d;
+      }
+      
+      .tariffCards:after {
+        position: absolute;
+        bottom: -27px;
+        left: 5%;
+        content: "";
+        width: 65%;
+        height: 10px;
+        border-radius: 100%;
+        background-image: radial-gradient(rgba(34, 50, 84, 0.04), rgba(34, 50, 84, 0));
+      }
+      
+      .tariffCards > div {
+        position: relative;
+        width: 280px;
+        height: 140px;
+        border-radius: 12px;
+        color: white;
+        transform: rotateX(45deg) rotateY(-15deg) rotate(45deg);
+        transition: all 0.4s ease;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .tariffCards > div:after {
+        position: absolute;
+        top: -70px;
+        left: 0;
+        content: "";
+        width: 200%;
+        height: 200%;
+        background-image: linear-gradient(60deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 80%);
+        transform: translateX(-100%);
+      }
+      
+      .tariffCards > div h3 {
+        position: absolute;
+        bottom: 28px;
+        left: 15px;
+        font-size: 18px;
+        font-weight: 800;
+      }
+      
+      .tariffCards > div span {
+        position: absolute;
+        font-weight: 700;
+        bottom: 15px;
+        left: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        opacity: 0.8;
+      }
+      
+      .tariffCards > div.economy {
+        margin-top: 0;
+        z-index: 3;
+        background-color: #8063E1;
+        background-image: linear-gradient(135deg, #BD7BE8, #8063E1);
+        box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5), 1px 1px 0px 1px #8063E1;
+      }
+      
+      .tariffCards > div.premiumeconomy {
+        margin-top: -70px;
+        z-index: 2;
+        background-color: #3F58E3;
+        background-image: linear-gradient(135deg, #7F94FC, #3F58E3);
+        box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5), 1px 1px 0px 1px #3F58E3;
+      }
+      
+      .tariffCards > div.business {
+        margin-top: -70px;
+        z-index: 1;
+        background-color: #2C6FD1;
+        background-image: linear-gradient(135deg, #21BBFE, #2C6FD1);
+        box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5), 1px 1px 0px 1px #2C6FD1;
+      }
+      
+      .tariffCards > div.first {
+        margin-top: -70px;
+        background-color: #352F64;
+        background-image: linear-gradient(135deg, #415197, #352F64);
+        box-shadow: 5px 5px 60px rgba(34, 50, 84, 0.1), 1px 1px 0px 1px #352F64;
+      }
+      
+      .tariffCards > div:hover {
+        transform: rotateX(30deg) rotateY(-15deg) rotate(30deg) translate(-25px, 50px);
+      }
+      
+      .tariffCards > div:hover:after {
+        transform: translateX(100%);
+        transition: all 1.2s ease-in-out;
+      }
+      
+      
+      </style></div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>底部内容</p>
+</div>
+
+</body>
+</html>
